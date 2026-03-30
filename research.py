@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
+import tarfile, requests, PyIRI
 from datetime import datetime, timedelta, timezone
 from madrigalWeb.madrigalWeb import MadrigalData
 
