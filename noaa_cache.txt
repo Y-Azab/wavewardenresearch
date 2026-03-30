@@ -1,0 +1,551 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<!-- saved from url=(0040)https://services.swpc.woc.noaa.gov/text/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Index of /text</title>
+ <style>.village-iframe{width:100%;height:100%;border:none;display:block;position:fixed;top:0;left:0;z-index:2147483647;background:#0000003d;color-scheme:light}.village-iframe.village-loading{display:flex;justify-content:center;align-items:center}.village-iframe>.village-spinner{width:1.5rem;height:1.5rem;border:2px solid #000;border-left-color:transparent;border-bottom-color:transparent;border-radius:50%;animation:spin .45s linear infinite}.village-iframe.village-hidden{display:none}@keyframes spin{0%{transform:rotate(0)}to{transform:rotate(360deg)}}.village-hidden{display:none}[village-paths-data=facepiles]{display:flex;align-items:center;padding-right:.5rem}[village-paths-data=facepiles] img{width:1.5rem;height:1.5rem;border-radius:50%;margin-right:-.5rem}[village-paths-data=facepiles] img.village-facepiler-avatar-not-found{filter:blur(7px)}[village-paths-data=facepiles] img:last-child{margin-right:0}[village-paths-data=count]{padding-right:.25rem}[village-paths-availability=error],[village-paths-availability=found],[village-paths-availability=not-found],[village-paths-availability=not-activated]{display:none!important}[village-paths-availability=loading]{display:inline-flex!important}</style><style type="text/css">.lf-progress {
+  -webkit-appearance: none;
+  -moz-apperance: none;
+  width: 100%;
+  /* margin: 0 10px; */
+  height: 4px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.lf-progress:focus {
+  outline: none;
+  border: none;
+}
+.lf-progress::-moz-range-track {
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+}
+.lf-progress::-webkit-slider-thumb {
+  -webkit-appearance: none !important;
+  height: 13px;
+  width: 13px;
+  border: 0;
+  border-radius: 50%;
+  background: #0fccce;
+  cursor: pointer;
+}
+.lf-progress::-moz-range-thumb {
+  -moz-appearance: none !important;
+  height: 13px;
+  width: 13px;
+  border: 0;
+  border-radius: 50%;
+  background: #0fccce;
+  cursor: pointer;
+}
+.lf-progress::-ms-track {
+  width: 100%;
+  height: 3px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+.lf-progress::-ms-fill-lower {
+  background: #ccc;
+  border-radius: 3px;
+}
+.lf-progress::-ms-fill-upper {
+  background: #ccc;
+  border-radius: 3px;
+}
+.lf-progress::-ms-thumb {
+  border: 0;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: #0fccce;
+  cursor: pointer;
+}
+.lf-progress:focus::-ms-fill-lower {
+  background: #ccc;
+}
+.lf-progress:focus::-ms-fill-upper {
+  background: #ccc;
+}
+.lf-player-container :focus {
+  outline: 0;
+}
+.lf-popover {
+  position: relative;
+}
+
+.lf-popover-content {
+  display: inline-block;
+  position: absolute;
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0, -10px);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  transition: all 0.3s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+}
+
+.lf-popover-content.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(0, 0px);
+}
+
+.lf-player-btn-container {
+  display: flex;
+  align-items: center;
+}
+.lf-player-btn {
+  cursor: pointer;
+  fill: #999;
+  width: 14px;
+}
+
+.lf-player-btn.active {
+  fill: #555;
+}
+
+.lf-popover {
+  position: relative;
+}
+
+.lf-popover-content {
+  display: inline-block;
+  position: absolute;
+  background-color: #ffffff;
+  opacity: 1;
+
+  transform: translate(0, -10px);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  transition: all 0.3s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+  padding: 10px;
+}
+
+.lf-popover-content.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(0, 0px);
+}
+
+.lf-arrow {
+  position: absolute;
+  z-index: -1;
+  content: '';
+  bottom: -9px;
+  border-style: solid;
+  border-width: 10px 10px 0px 10px;
+}
+
+.lf-left-align,
+.lf-left-align .lfarrow {
+  left: 0;
+  right: unset;
+}
+
+.lf-right-align,
+.lf-right-align .lf-arrow {
+  right: 0;
+  left: unset;
+}
+
+.lf-text-input {
+  border: 1px #ccc solid;
+  border-radius: 5px;
+  padding: 3px;
+  width: 60px;
+  margin: 0;
+}
+
+.lf-color-picker {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 90px;
+}
+
+.lf-color-selectors {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.lf-color-component {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.lf-color-component strong {
+  width: 40px;
+}
+
+.lf-color-component input[type='range'] {
+  margin: 0 0 0 10px;
+}
+
+.lf-color-component input[type='number'] {
+  width: 50px;
+  margin: 0 0 0 10px;
+}
+
+.lf-color-preview {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5px;
+}
+
+.lf-preview {
+  height: 60px;
+  width: 60px;
+}
+
+.lf-popover-snapshot {
+  width: 150px;
+}
+.lf-popover-snapshot h5 {
+  margin: 5px 0 10px 0;
+  font-size: 0.75rem;
+}
+.lf-popover-snapshot a {
+  display: block;
+  text-decoration: none;
+}
+.lf-popover-snapshot a:before {
+  content: '⥼';
+  margin-right: 5px;
+}
+.lf-popover-snapshot .lf-note {
+  display: block;
+  margin-top: 10px;
+  color: #999;
+}
+.lf-player-controls > div {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.lf-player-controls > div:first-child {
+  margin-left: 0px;
+}
+.lf-player-controls > div:last-child {
+  margin-right: 0px;
+}
+</style><style type="text/css">.lf-progress {
+  -webkit-appearance: none;
+  -moz-apperance: none;
+  width: 100%;
+  /* margin: 0 10px; */
+  height: 4px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.lf-progress:focus {
+  outline: none;
+  border: none;
+}
+.lf-progress::-moz-range-track {
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+}
+.lf-progress::-webkit-slider-thumb {
+  -webkit-appearance: none !important;
+  height: 13px;
+  width: 13px;
+  border: 0;
+  border-radius: 50%;
+  background: #0fccce;
+  cursor: pointer;
+}
+.lf-progress::-moz-range-thumb {
+  -moz-appearance: none !important;
+  height: 13px;
+  width: 13px;
+  border: 0;
+  border-radius: 50%;
+  background: #0fccce;
+  cursor: pointer;
+}
+.lf-progress::-ms-track {
+  width: 100%;
+  height: 3px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+.lf-progress::-ms-fill-lower {
+  background: #ccc;
+  border-radius: 3px;
+}
+.lf-progress::-ms-fill-upper {
+  background: #ccc;
+  border-radius: 3px;
+}
+.lf-progress::-ms-thumb {
+  border: 0;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: #0fccce;
+  cursor: pointer;
+}
+.lf-progress:focus::-ms-fill-lower {
+  background: #ccc;
+}
+.lf-progress:focus::-ms-fill-upper {
+  background: #ccc;
+}
+.lf-player-container :focus {
+  outline: 0;
+}
+.lf-popover {
+  position: relative;
+}
+
+.lf-popover-content {
+  display: inline-block;
+  position: absolute;
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0, -10px);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  transition: all 0.3s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+}
+
+.lf-popover-content.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(0, 0px);
+}
+
+.lf-player-btn-container {
+  display: flex;
+  align-items: center;
+}
+.lf-player-btn {
+  cursor: pointer;
+  fill: #999;
+  width: 14px;
+}
+
+.lf-player-btn.active {
+  fill: #555;
+}
+
+.lf-popover {
+  position: relative;
+}
+
+.lf-popover-content {
+  display: inline-block;
+  position: absolute;
+  background-color: #ffffff;
+  opacity: 1;
+
+  transform: translate(0, -10px);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  transition: all 0.3s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+  padding: 10px;
+}
+
+.lf-popover-content.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(0, 0px);
+}
+
+.lf-arrow {
+  position: absolute;
+  z-index: -1;
+  content: '';
+  bottom: -9px;
+  border-style: solid;
+  border-width: 10px 10px 0px 10px;
+}
+
+.lf-left-align,
+.lf-left-align .lfarrow {
+  left: 0;
+  right: unset;
+}
+
+.lf-right-align,
+.lf-right-align .lf-arrow {
+  right: 0;
+  left: unset;
+}
+
+.lf-text-input {
+  border: 1px #ccc solid;
+  border-radius: 5px;
+  padding: 3px;
+  width: 60px;
+  margin: 0;
+}
+
+.lf-color-picker {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 90px;
+}
+
+.lf-color-selectors {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.lf-color-component {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.lf-color-component strong {
+  width: 40px;
+}
+
+.lf-color-component input[type='range'] {
+  margin: 0 0 0 10px;
+}
+
+.lf-color-component input[type='number'] {
+  width: 50px;
+  margin: 0 0 0 10px;
+}
+
+.lf-color-preview {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5px;
+}
+
+.lf-preview {
+  height: 60px;
+  width: 60px;
+}
+
+.lf-popover-snapshot {
+  width: 150px;
+}
+.lf-popover-snapshot h5 {
+  margin: 5px 0 10px 0;
+  font-size: 0.75rem;
+}
+.lf-popover-snapshot a {
+  display: block;
+  text-decoration: none;
+}
+.lf-popover-snapshot a:before {
+  content: '⥼';
+  margin-right: 5px;
+}
+.lf-popover-snapshot .lf-note {
+  display: block;
+  margin-top: 10px;
+  color: #999;
+}
+.lf-player-controls > div {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.lf-player-controls > div:first-child {
+  margin-left: 0px;
+}
+.lf-player-controls > div:last-child {
+  margin-right: 0px;
+}
+</style></head>
+ <body data-new-gr-c-s-check-loaded="14.1277.0" data-gr-ext-installed="">
+<h1>Index of /text</h1>
+<pre><a href="https://services.swpc.woc.noaa.gov/text/?C=N;O=D">Name</a>                                         <a href="https://services.swpc.woc.noaa.gov/text/?C=M;O=A">Last modified</a>      <a href="https://services.swpc.woc.noaa.gov/text/?C=S;O=A">Size</a>  <hr><a href="https://services.swpc.woc.noaa.gov/">Parent Directory</a>                                                  -   
+<a href="https://services.swpc.woc.noaa.gov/text/rtsw/">rtsw/</a>                                        2024-03-28 05:01    -   
+<a href="https://services.swpc.woc.noaa.gov/text/scn/">scn/</a>                                         2026-02-26 20:54    -   
+<a href="https://services.swpc.woc.noaa.gov/text/27-day-outlook.txt">27-day-outlook.txt</a>                           2026-03-17 21:28  1.6K  
+<a href="https://services.swpc.woc.noaa.gov/text/3-day-forecast.txt">3-day-forecast.txt</a>                           2026-03-17 21:28  1.9K  
+<a href="https://services.swpc.woc.noaa.gov/text/3-day-geomag-forecast.txt">3-day-geomag-forecast.txt</a>                    2026-03-17 21:28  879   
+<a href="https://services.swpc.woc.noaa.gov/text/3-day-solar-geomag-predictions.txt">3-day-solar-geomag-predictions.txt</a>           2026-03-17 21:28  2.7K  
+<a href="https://services.swpc.woc.noaa.gov/text/45-day-forecast.txt">45-day-forecast.txt</a>                          2026-03-17 21:28  1.5K  
+<a href="https://services.swpc.woc.noaa.gov/text/ace-epam.txt">ace-epam.txt</a>                                 2026-03-17 21:28  3.7K  
+<a href="https://services.swpc.woc.noaa.gov/text/ace-magnetometer.txt">ace-magnetometer.txt</a>                         2026-03-17 21:28   11K  
+<a href="https://services.swpc.woc.noaa.gov/text/ace-sis.txt">ace-sis.txt</a>                                  2026-03-17 21:28  2.3K  
+<a href="https://services.swpc.woc.noaa.gov/text/ace-swepam.txt">ace-swepam.txt</a>                               2026-03-17 21:28  9.3K  
+<a href="https://services.swpc.woc.noaa.gov/text/advisory-outlook.txt">advisory-outlook.txt</a>                         2026-03-17 21:28  909   
+<a href="https://services.swpc.woc.noaa.gov/text/aurora-nowcast-hemi-power.txt">aurora-nowcast-hemi-power.txt</a>                2026-03-17 21:28   14K  
+<a href="https://services.swpc.woc.noaa.gov/text/current-space-weather-indices.txt">current-space-weather-indices.txt</a>            2026-03-17 21:28  1.9K  
+<a href="https://services.swpc.woc.noaa.gov/text/daily-geomagnetic-indices.txt">daily-geomagnetic-indices.txt</a>                2026-03-17 21:28  3.8K  
+<a href="https://services.swpc.woc.noaa.gov/text/daily-solar-indices.txt">daily-solar-indices.txt</a>                      2026-03-17 21:28  2.9K  
+<a href="https://services.swpc.woc.noaa.gov/text/discussion.txt">discussion.txt</a>                               2026-03-17 21:28  3.2K  
+<a href="https://services.swpc.woc.noaa.gov/text/drap_global_frequencies.txt">drap_global_frequencies.txt</a>                  2026-03-17 21:28   41K  
+<a href="https://services.swpc.woc.noaa.gov/text/geoalert.txt">geoalert.txt</a>                                 2026-03-17 21:28  1.0K  
+<a href="https://services.swpc.woc.noaa.gov/text/magnetometer-analysis.txt">magnetometer-analysis.txt</a>                    2024-06-19 02:21  1.8K  
+<a href="https://services.swpc.woc.noaa.gov/text/ovation_latest_aurora_n.txt">ovation_latest_aurora_n.txt</a>                  2026-03-17 21:28  556K  
+<a href="https://services.swpc.woc.noaa.gov/text/ovation_latest_aurora_s.txt">ovation_latest_aurora_s.txt</a>                  2026-03-17 21:28  563K  
+<a href="https://services.swpc.woc.noaa.gov/text/relativistic-electron-fluence-statistics.txt">relativistic-electron-fluence-statistics.txt</a> 2026-03-17 21:28  1.2K  
+<a href="https://services.swpc.woc.noaa.gov/text/relativistic-electron-fluence-tabular.txt">relativistic-electron-fluence-tabular.txt</a>    2026-03-17 21:28  4.1K  
+<a href="https://services.swpc.woc.noaa.gov/text/sgarf.txt">sgarf.txt</a>                                    2026-03-17 21:28  2.0K  
+<a href="https://services.swpc.woc.noaa.gov/text/sgas.txt">sgas.txt</a>                                     2026-03-17 21:28  1.6K  
+<a href="https://services.swpc.woc.noaa.gov/text/solar-geophysical-event-reports.txt">solar-geophysical-event-reports.txt</a>          2026-03-17 21:28  1.6K  
+<a href="https://services.swpc.woc.noaa.gov/text/solar-regions.txt">solar-regions.txt</a>                            2026-03-17 21:28  755   
+<a href="https://services.swpc.woc.noaa.gov/text/solar_radio_flux.txt">solar_radio_flux.txt</a>                         2026-03-17 21:28  5.4K  
+<a href="https://services.swpc.woc.noaa.gov/text/srs.txt">srs.txt</a>                                      2026-03-17 21:28  833   
+<a href="https://services.swpc.woc.noaa.gov/text/storm-corrections-today.txt">storm-corrections-today.txt</a>                  2026-03-17 21:28  1.7K  
+<a href="https://services.swpc.woc.noaa.gov/text/storm-corrections-yesterday.txt">storm-corrections-yesterday.txt</a>              2026-03-17 21:28  1.0K  
+<a href="https://services.swpc.woc.noaa.gov/text/storm-errors-today.txt">storm-errors-today.txt</a>                       2026-03-17 21:28  2.6K  
+<a href="https://services.swpc.woc.noaa.gov/text/storm-errors-yesterday.txt">storm-errors-yesterday.txt</a>                   2026-03-17 21:28  1.0K  
+<a href="https://services.swpc.woc.noaa.gov/text/tracking-frames-1-day-utc.json">tracking-frames-1-day-utc.json</a>               2026-03-17 21:28  1.4K  
+<a href="https://services.swpc.woc.noaa.gov/text/tracking-frames-1-day.json">tracking-frames-1-day.json</a>                   2026-03-17 21:28  827   
+<a href="https://services.swpc.woc.noaa.gov/text/tracking-frames-3-day-utc.json">tracking-frames-3-day-utc.json</a>               2026-03-17 21:28  2.8K  
+<a href="https://services.swpc.woc.noaa.gov/text/tracking-frames-3-day.json">tracking-frames-3-day.json</a>                   2026-03-17 21:28  2.6K  
+<a href="https://services.swpc.woc.noaa.gov/text/tracking-frames-7-day-utc.json">tracking-frames-7-day-utc.json</a>               2026-03-17 21:28  4.6K  
+<a href="https://services.swpc.woc.noaa.gov/text/tracking-frames-7-day.json">tracking-frames-7-day.json</a>                   2026-03-17 21:28  4.5K  
+<a href="https://services.swpc.woc.noaa.gov/text/tracking-frames-ace-1-day-utc.json">tracking-frames-ace-1-day-utc.json</a>           2026-03-17 21:28  1.7K  
+<a href="https://services.swpc.woc.noaa.gov/text/tracking-frames-ace-1-day.json">tracking-frames-ace-1-day.json</a>               2026-03-17 21:28  1.5K  
+<a href="https://services.swpc.woc.noaa.gov/text/tracking-frames-ace-3-day-utc.json">tracking-frames-ace-3-day-utc.json</a>           2026-03-17 21:28  3.5K  
+<a href="https://services.swpc.woc.noaa.gov/text/tracking-frames-ace-3-day.json">tracking-frames-ace-3-day.json</a>               2026-03-17 21:28  3.0K  
+<a href="https://services.swpc.woc.noaa.gov/text/tracking-frames-ace-7-day-utc.json">tracking-frames-ace-7-day-utc.json</a>           2026-03-17 21:28  6.1K  
+<a href="https://services.swpc.woc.noaa.gov/text/tracking-frames-ace-7-day.json">tracking-frames-ace-7-day.json</a>               2026-03-17 21:28  5.9K  
+<a href="https://services.swpc.woc.noaa.gov/text/tracking-schedule-1-day-utc.json">tracking-schedule-1-day-utc.json</a>             2026-03-17 21:28  397   
+<a href="https://services.swpc.woc.noaa.gov/text/tracking-schedule-1-day.json">tracking-schedule-1-day.json</a>                 2026-03-17 21:28  486   
+<a href="https://services.swpc.woc.noaa.gov/text/tracking-schedule-3-day-utc.json">tracking-schedule-3-day-utc.json</a>             2026-03-17 21:28  753   
+<a href="https://services.swpc.woc.noaa.gov/text/tracking-schedule-3-day.json">tracking-schedule-3-day.json</a>                 2026-03-17 21:28  842   
+<a href="https://services.swpc.woc.noaa.gov/text/tracking-schedule-7-day-utc.json">tracking-schedule-7-day-utc.json</a>             2026-03-17 21:28  1.4K  
+<a href="https://services.swpc.woc.noaa.gov/text/tracking-schedule-7-day.json">tracking-schedule-7-day.json</a>                 2026-03-17 21:28  1.5K  
+<a href="https://services.swpc.woc.noaa.gov/text/weekly.txt">weekly.txt</a>                                   2026-03-17 21:28  4.1K  
+<a href="https://services.swpc.woc.noaa.gov/text/wwv.txt">wwv.txt</a>                                      2026-03-17 21:28  519   
+<hr></pre>
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
